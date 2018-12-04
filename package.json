@@ -1,0 +1,26 @@
+{
+  "name": "colorio-electron-example",
+  "version": "1.0.0",
+  "description": "Colorio module demo embedded into electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/turbobabr/colorio-electron-example",
+  "keywords": [
+    "Electron",
+    "color picker",
+    "colorio",
+    "eyedropper",
+    "macos",
+    "demo"
+  ],
+  "author": "Andrey Shakhmin",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.7"
+  },
+  "dependencies": {
+    "colorio": "^0.1.2"
+  }
+}

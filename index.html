@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Colorio</title>
+    <style type="text/css">
+      <!--
+      html {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .color-button {        
+        width: 50px;
+        height: 30px;
+        margin: 20px 40px;
+        padding-left: 4px;
+        padding-top: 4px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        background-color: #fefefe;
+      }
+      .color-preview {        
+        width: 44px;
+        height: 24px;
+        border-radius: 2px;
+        background-color: #4F92C5;
+        border: solid 1px rgba(0,0,0,0.15);
+      }
+      .color-button:hover {
+        border: 1px solid #0091FF;
+      }
+      -->
+    </style>
+  </head>
+  <body>    
+    <div id="color-button" class="color-button">
+      <div id="color-preview" class="color-preview"></div>
+    </div>    
+    <h6 id="selected-color" style="padding-left: 25px;"></h6>
+    <script>      
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
